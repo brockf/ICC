@@ -87,7 +87,8 @@ function [] = icc ()
         % counterbalance it?
         if (get_config('CounterBalance') == 1 && length(counterbalancer) > 1)
             % counterbalancing is possible
-            if (mode([counterbalancer.novelty_side_at_test]) == novelty_side_at_test)
+            % we want to add a little bit more randomness to this
+            if (mode([counterbalancer.novelty_side_at_test]) == novelty_side_at_test && round(rand(1)) == 1)
                 log_msg('Counterbalancing novelty_side_at_test');
                 if (novelty_side_at_test == 2)
                     novelty_side_at_test = 1;

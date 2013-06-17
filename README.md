@@ -3,6 +3,12 @@ ICC
 
 Run an Infant Controlled Categorization (ICC) study in Matlab with minimal configuration. This is useful for developmental psychologists who want to examine infants' categorization abilities using a novelty preference procedure.
 
+Infants are familiarized to 8 images of objects in a given category (e.g., 8 dogs; you control the stimuli) and, at test, see a new object belonging to this familiar category and a new object from an unfamiliar category. Their novelty preference at test is measured as evidence of categorization during.
+
+An attention getter is used at the beginning of each session and before the test phase. You can also configure it to appear if the infant looks less than the required amount of time during a single familiarization trial, to re-engage the participant.
+
+You can configure the task to have a pre-test assessment of infants' preference between the two objects at test. You can also add a pre-familiarization movie. By default, there is a left/right calibration video that plays at the very beginning of the experiment.
+
 ## How to use ICC
 
 ### Download ICC
@@ -14,7 +20,7 @@ Run an Infant Controlled Categorization (ICC) study in Matlab with minimal confi
 ### Create a new study
 
 * Copy the example study folder, "artecat", into a subfolder of your main ICC directory
-* Modify `config.txt` with the configuration options for the new study
+* Modify `config.txt` with the configuration options for the new study using Excel. Save as a tab-delimited text file.
 * Modify the stimuli in the `stimuli` sub-folder.
 
 ### Run a session
@@ -23,7 +29,7 @@ Run an Infant Controlled Categorization (ICC) study in Matlab with minimal confi
 * Type `icc` in the command prompt
 * Select your new study folder and click "Open"
 * Follow on-screen prompts (e.g., enter the experimenter's name, infant's subject code, age, etc.)
-* Code the infant's looking using the LeftArrow (for a right look), RightArrow (for a left look), and DownArrow (for a center look)
+* Code the infant's looking using the LeftArrow (for a right look), RightArrow (for a left look), and DownArrow (for a center look). Press the corresponding key when the infant is looking in that direction on the screen, and release the key when the baby stops looking.
 * A log for the session will be created in the `logs` sub-folder
 * A session file (with looking time results, participant details, and session metadata) will be created in the `sessions` sub-folder
 
