@@ -1,0 +1,14 @@
+# ignore study folders for private lab stuff, except "artecat" which will serve as a demo
+anton6-shapes
+anton6-original
+dinofish2
+
+# ignore all study data and log files
+*/logs/*
+*/sessions/*
+
+# ignore the counterbalancer files
+*/counterbalancer.txt
+
+# ignore any internal documents
+internal*
