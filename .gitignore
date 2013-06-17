@@ -1,3 +1,6 @@
+# ignore Mac folder files
+.DS_Store
+
 # ignore study folders for private lab stuff, except "artecat" which will serve as a demo
 anton6-shapes
 anton6-original
