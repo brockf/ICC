@@ -1,0 +1,32 @@
+key	value
+Start Time	2013-4-10 10:29:20.7207
+End Time	2013-4-10 10:44:21.0368
+Status	Completed
+Experimenter	BF
+Subject Code	ARTECAT1
+Subject Sex	F
+Subject Age	10.13
+Comments	
+Order Code	DR-DB
+Familiarization Category	DAX
+Fam First Side	R
+Novelty Side Test Trial #1	R
+Total Familiarization Looking	70.1332
+Pre-trial Novelty Preference	0.388644
+Test #1 Novelty Preference	0.641549
+Fam Image 	
+	DAX-4.jpg
+Fam Image 	
+	DAX-1.jpg
+Fam Image 	
+	DAX-8.jpg
+Fam Image 	
+	DAX-5.jpg
+Fam Image 	
+	DAX-3.jpg
+Fam Image 	
+	DAX-7.jpg
+Fam Image 	
+	DAX-2.jpg
+Fam Image 	
+	DAX-6.jpg

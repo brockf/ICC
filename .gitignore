@@ -6,9 +6,10 @@ anton6-shapes
 anton6-original
 dinofish2
 
-# ignore all study data and log files
-*/logs/*
-*/sessions/*
+# ignore all study data and log files that don't start with "e" (which allows
+# for the "empty-placeholder.txt" files
+artecat/logs/[!e]*
+artecat/sessions/[!e]*
 
 # ignore the counterbalancer files
 */counterbalancer.txt
